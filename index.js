@@ -6,7 +6,7 @@ const app = express();
 const cors = require("cors");
 app.use(
   cors({
-    origin: ["https://nekretnine-proba.netlify.app"],
+    origin: ["https://nekretnine-one-proba.netlify.app"],
     methods: "GET,PUT,POST",
     preflightContinue: false,
     optionsSuccessStatus: 204,
